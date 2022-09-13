@@ -137,3 +137,17 @@ filmes_nota_maior <- imdb %>%
 
 
 write_csv(filmes_nota_maior, "filmes_nota_maior_5.csv")
+
+
+# formato rds:
+library(tidyverse)
+
+imdb_rds <- read_rds("dados/imdb_rds.rds")
+
+
+
+
+
+
+
+

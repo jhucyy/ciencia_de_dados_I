@@ -70,3 +70,5 @@ write_xlsx(imdb, path = "imdb.xlsx")
 
 imdb_rds <- read_rds("dados/imdb.rds")
 write_rds(imdb_rds, file = "dados/imdb_rds.rds")
+
+
