@@ -12,6 +12,8 @@
 # tipo de conteúdo apresentado. 
 # fazer uma conclusão geral do trabalho. 
 
+# exemplo, consultar código: 
+# https://curso-r.github.io/202206-r4ds-1/
 
 
 # data limite 30 de outubro.
