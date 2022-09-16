@@ -122,12 +122,24 @@ imdb_rds %>%
   arrange(desc(orcamento))
 
 
+imdb_rds %>% 
+  select(titulo, ano, nota_imdb, num_avaliacoes) %>% 
+  arrange(desc(nota_imdb), desc(num_avaliacoes))
 
 
+# Parte prática da aula ---------------------------------------------------
+
+library(tidyverse)
+library(readxl)
+
+library(readxl)
+
+nomes_imdb <- readxl::read_excel("./dados/imdb_nao_estruturada.xlsx",
+                                 sheet = "Sheet1")
 
 
-
-
+imdb <- readxl::read_excel("./dados/imdb_nao_estruturada.xlsx",
+                   skip = 3, col_names = nomes_imdb$nome)
 
 
 
