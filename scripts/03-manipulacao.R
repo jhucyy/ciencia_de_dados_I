@@ -553,3 +553,9 @@ imdb %>%
   left_join(imdb_avaliacoes, by = "id_filme") %>%
   View()
 
+
+
+
+
+
+
